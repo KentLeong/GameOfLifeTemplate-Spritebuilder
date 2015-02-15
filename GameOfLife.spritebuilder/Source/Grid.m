@@ -82,11 +82,8 @@ static const int GRID_COLUMNS = 10;
     int column = touchPosition.x/_cellWidth;
     
     //for the testing purposes
-    NSLog(@"The cell Height is: %f\nThe cell Width is: %f\n",
-          _cellHeight, _cellWidth);
-    NSLog(@"The touchPostion.y is: %f",touchPosition.y);
-    NSLog(@"The touchPosition.x is: %f", touchPosition.x);
-    NSLog(@"The row int value is: %d", row);
+    NSLog(@"The cell Height is: %f\nThe cell Width is: %f\nThe touchPostion.y is: %f\nThe touchPosition.x is: %f\nThe row int value is: %d\n",
+          _cellHeight, _cellWidth, touchPosition.y, touchPosition.x, row);
     NSLog(@"The column in value is: %d", column);
     
     
