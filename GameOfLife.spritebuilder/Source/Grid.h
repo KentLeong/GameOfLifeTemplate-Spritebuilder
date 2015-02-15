@@ -15,4 +15,5 @@
 
 -(void)countNeighbors;
 -(void)updateCreatures;
+-(void)evloveStep;
 @end
